@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum-states-project"
+version = "0.1.0"
+description = "A small educational Python project for exploring single-qubit quantum states."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "OpenAI Codex" }
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
